@@ -15,10 +15,10 @@ public class Group {
 //		
 //		return 0;
 //	}
-//	
+////	
 //	@Override
 //	public String toString() {
-//		return "ID: " + id + " Name: " + name;
+//		return "ID: " + id;
 //		
 //	}
 	
