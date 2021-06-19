@@ -67,7 +67,7 @@ public class Main {
 		System.out.println("Nhap ban kinh: ");
 		float banKinh = scanner.nextFloat();
 		Hinh_Tron hinhTron = new Hinh_Tron(banKinh);
-		List
+	
 	}
 	
 	
