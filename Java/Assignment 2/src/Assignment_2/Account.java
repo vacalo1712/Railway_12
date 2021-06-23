@@ -10,4 +10,8 @@ public class Account {
 	Position position;
 	Date createDate;
 	Group[] groups;
+	
+
+	
+	
 }
