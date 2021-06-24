@@ -4,8 +4,7 @@ public enum TuyenHSGioi {
 	TOAN("toan"), LY("ly"), HOA("hoa");
 
 	String tuyenHSGioi;
-	
-	TuyenHSGioi(String string) {
+	TuyenHSGioi(String tuyenHSGioi) {
 		this.tuyenHSGioi = tuyenHSGioi;
 	}
 	
@@ -18,3 +17,5 @@ public enum TuyenHSGioi {
 		throw new IllegalArgumentException("Không phải loại ENUM");
 	}
 }
+
+

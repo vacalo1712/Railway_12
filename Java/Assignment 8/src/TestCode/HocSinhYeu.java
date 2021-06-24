@@ -41,5 +41,8 @@ public class HocSinhYeu extends HocSinh {
 		this.ngayMoiPhuHuynh = ngayMoiPhuHuynh;
 	}
 	
-
+	@Override
+	public String toString() {
+		return super.toString() + ", điểm thấp nhất: " + diemThap + ", ngày mời phụ huynh: " + ngayMoiPhuHuynh;
+	}
 }

@@ -52,5 +52,9 @@ public class HocSinh {
 		this.sdt = sdt;
 	}
 	
+	@Override
+	public String toString() {
+		return "Ten: " + hoTen + ", Tuoi: " + tuoi + ", Email: " + email + ", SDT: " + sdt;
+	}
 	
 }

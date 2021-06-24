@@ -28,6 +28,10 @@ public class HocSinhKha extends HocSinh {
 		this.diemTrungBinh = diemTrungBinh;
 	}
 	
-	
+	@Override
+	public String toString() {
+		
+		return super.toString() + ", điểm trung bình: " + diemTrungBinh;
+	}
 
 }
